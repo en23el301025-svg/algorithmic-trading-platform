@@ -1,0 +1,6 @@
+*.log
+*.pyc
+*.pid
+__pycache__/
+.env
+journal.db
