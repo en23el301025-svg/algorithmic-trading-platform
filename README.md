@@ -1,18 +1,34 @@
 # Algorithmic Trading Platform (Under Development)
 
-This project is a rule-based algorithmic trading system built using Python.
+A modular Python-based algorithmic trading platform focused on rule-based intraday trading using multi-timeframe demand-supply analysis.
 
 ## Features
-- Scans 200+ stocks
-- Multi-timeframe demand-supply strategy
-- Scoring-based trade filtering
-- Risk management (position sizing, loss limits)
-- Trade execution engine
+- Scans 200+ NSE stocks
+- Multi-timeframe demand-supply zone detection
+- Trade scoring & filtering system
+- Risk management engine
+- Position sizing & anti-overtrading logic
+- Trade execution management
 - Real-time dashboard
-- AI assistant (Bittu AI)
-
-## Status
-This project is under active development.
+- AI-assisted trading insights (Bittu AI)
 
 ## Tech Stack
-Python, Flask, SQLite
+- Python
+- Flask
+- SQLite
+- APIs
+- HTML/CSS Dashboard
+
+## Architecture
+- Scanner Module
+- Risk Engine
+- Trade Manager
+- Analytics Engine
+- Dashboard UI
+- AI Assistant Layer
+
+## Status
+This project is under active development and continuous improvement.
+
+## Disclaimer
+Built for educational and research purposes only.
